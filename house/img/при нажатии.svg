@@ -1,0 +1,30 @@
+<svg id="при_нажатии" data-name="при нажатии" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="176" height="28" viewBox="0 0 176 28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d7c074;
+        stroke: #ab6e17;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        font-size: 16px;
+        fill: #fff;
+        font-family: "Book Antiqua";
+      }
+    </style>
+    <filter id="filter" x="934" y="35" width="177" height="29" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="937" y="38.9688" width="171" height="22" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTcxIiBoZWlnaHQ9IjIyIiB2aWV3Qm94PSIwIDAgMTcxIDIyIj4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBmaWxsOiB1cmwoI2xpbmVhci1ncmFkaWVudCk7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudCIgeDE9Ijg1LjUiIHkxPSIyMiIgeDI9Ijg1LjUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjTmFOTmFOTmFOIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC43MjYiIHN0b3AtY29sb3I9IiNkMzk1MzgiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjk1OCIgc3RvcC1jb2xvcj0iI2Y1ZGNiOSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmZmY5ZTAiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IGNsYXNzPSJjbHMtMSIgd2lkdGg9IjE3MSIgaGVpZ2h0PSIyMiIvPgo8L3N2Zz4K"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="translate(-934.5 -35.5)" style="fill: #d7c074; filter: url(#filter)">
+    <path id="Фигура_4_копия_2" data-name="Фигура 4 копия 2" class="cls-1" d="M942.09,38.967H1103a5,5,0,0,1,5,5v12.11a4.906,4.906,0,0,1-5,4.888H942.09a4.988,4.988,0,0,1-5.1-4.888V43.967A5.082,5.082,0,0,1,942.09,38.967Z" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use transform="translate(-934.5 -35.5)" xlink:href="#Фигура_4_копия_2" style="stroke: #ab6e17; filter: none; fill: none"/>
+  <text id="Отправить_резюме" data-name="Отправить резюме" class="cls-2" x="15.558" y="19.5">Отправить резюме</text>
+</svg>

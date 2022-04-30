@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.content-questions-head {
+  font-size: 48px;
+  line-height: 59px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 14px 0px 0px 62px;
+}
+
+.all label:before {
+  content: "Open All";
+}
+
+.accordion {
+  max-width: 1763px;
+  width: 100%;
+  margin-top: 70px;
+  margin-left: 62px;
+}
+
+.accordion .trigger #checkbox-1,
+.accordion .trigger #checkbox-2,
+.accordion .trigger #checkbox-3,
+.accordion .trigger #checkbox-4,
+.accordion .trigger #checkbox-5 {
+  display: none;
+}
+
+.accordion .trigger .checkbox {
+  position: relative;
+  display: block;
+  max-width: 93vw;
+  width: 100%;
+  max-height: 5vw;
+  height: 100%;
+  margin: 0;
+  color: rgb(51, 51, 51);
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.trigger {
+  border-top: 1px solid rgb(202, 202, 202);
+}
+
+.trigger:last-child {
+  border-bottom: 1px solid rgb(202, 202, 202);
+}
+
+.trigger:hover {
+  border-top: 1px solid rgb(255, 153, 0);
+}
+
+.trigger:hover + .trigger {
+  border-top: 1px solid rgb(255, 153, 0);
+}
+
+.trigger:last-child:hover {
+  border-bottom: 1px solid rgb(255, 153, 0);
+}
+
+.accordion .trigger .checkbox i {
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  right: 20px;
+}
+
+.accordion .trigger .checkbox i::before {
+  background: url("image/Rectangle13.svg") no-repeat center;
+  background-color: #ececec;
+}
+
+.accordion .trigger .checkbox i::after {
+  background: url("image/Rectangle13.svg") no-repeat center;
+  background-color: #ececec;
+}
+
+.box {
+  display: flex;
+  height: 70px;
+}
+
+.box-1 {
+  max-width: 90vw;
+  width: 100%;
+  height: 5vw;
+  margin-top: 25px;
+}
+
+.box-1:hover {
+  color: rgb(255, 153, 0);
+}
+
+.questions__button {
+  text-align: right;
+  max-width: 50px;
+  width: 100%;
+  max-height: 50px;
+  height: 100%;
+  border-radius: 25px;
+  border: none;
+  background: url("image/Rectangle12\ \(Stroke\).svg") no-repeat center;
+  background-color: rgb(236, 236, 236);
+  margin-top: 10px;
+  background-size: 50%;
+}
+
+.box-1:hover + .questions__button {
+  color: rgb(255, 153, 0);
+  background-color: darkgray;
+}
+
+.box-1:active + .questions__button {
+  background: url("image/Rectangle13.svg") no-repeat center;
+  background-color: rgb(236, 236, 236);
+}
+
+.accordion .trigger .content {
+  position: relative;
+  max-height: 1px;
+  padding: 0;
+  overflow-y: scroll;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: #333333;
+  transition: max-height 500ms ease-in-out;
+  overflow: hidden;
+}
+
+#checkbox-1:checked ~ .content,
+#checkbox-2:checked ~ .content,
+#checkbox-3:checked ~ .content,
+#checkbox-4:checked ~ .content,
+#checkbox-5:checked ~ .content {
+  max-height: 18vw;
+}
+
+/* 1024 */
+@media (max-width: 1024px) {
+  .accordion {
+    margin-left: 0;
+  }
+
+  .content-questions-head {
+    margin: 15px 0px 0px 0px;
+  }
+}
+
+/* 606 */
+@media (max-width: 606px) {
+  .accordion {
+    margin-top: 25px;
+    margin-left: 0;
+  }
+
+  .content-questions-head {
+    margin: 15px 0px 0px 0px;
+    font-size: 8vw;
+    line-height: 9.7vw;
+  }
+
+  .accordion .trigger .checkbox {
+    font-size: 2.5vw;
+    line-height: 5.2vw;
+  }
+
+  .questions__button {
+    width: 8vw;
+    height: 7.5vw;
+  }
+
+  .box {
+    height: 11.5vw;
+  }
+
+  .box-1 {
+    height: 11.5vw;
+    margin: 0;
+  }
+
+  .accordion .trigger .content {
+    font-size: 2vw;
+    line-height: 5vw;
+  }
+}

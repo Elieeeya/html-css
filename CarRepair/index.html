@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url(/reset.css);
+
+        .container {
+            margin: 0 auto;
+            max-width: 1200px;
+            height: inherit;
+            padding: 0 20px;
+            position: relative;
+        }
+
+        .header__flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 0px 25px 0px;
+        }
+
+        .header__logo {
+            max-width: 200px;
+            width: 100%;
+            height: 50px;
+            background: url(brand1.png) no-repeat center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .header__link {
+            color: #000;
+            text-decoration: none;
+            margin-right: 40px;
+            list-style: none;
+        }
+
+        .header__link:last-child {
+            margin-right: 0;
+        }
+
+        .header__link:hover {
+            color: orange;
+        }
+
+        .link__menu {
+            position: absolute;
+            top: 45px;
+            height: 0;
+            overflow: hidden;
+            transition: .3s;
+        }
+
+        .header__link:hover .link__menu {
+            height: 60px;
+            background: orange;
+            border: 1px solid orange;
+
+        }
+
+        .general {
+            min-height: 600px;
+            height: 100%;
+            background: url(bg-image-1.jpg) no-repeat center/cover;
+        }
+
+
+        .block__right {
+            float: right;
+            margin-top: 110px;
+        }
+
+        .general__heading {
+            max-width: 300px;
+            font-size: 32px;
+            color: #fff;
+            font-weight: 100;
+        }
+
+        .heading__fonts {
+            font-size: 38px;
+            font-weight: 900;
+        }
+
+        .general__text {
+            color: #fff;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.5;
+            white-space: pre-line;
+        }
+
+        button {
+            color: #fff;
+            font-size: 12px;
+            font-weight: 400;
+            border: 1px solid #fff;
+            margin-top: 60px;
+            padding: 20px 25px;
+            background: transparent;
+        }
+
+        button:hover {
+            color: orange;
+            border: 1px solid orange;
+            cursor: pointer;
+        }
+
+        footer {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        ul {
+            padding: 0;
+            list-style: none;
+        }
+
+        .heading__line {
+            border-bottom: 2px solid #fe484a;
+        }
+
+        .list__label {
+            font-size: 20px;
+            color: #4f7bbc;
+        }
+
+        .block-two__list {
+            font-size: 16px;
+            font-weight: 900;
+            line-height: 2;
+            text-align: justify;
+        }
+
+        .list__color {
+            font-size: 14px;
+            font-weight: 600;
+            color: #ddd;
+            padding-left: 80px;
+        }
+
+        .thee__text {
+            font-weight: 600;
+        }
+
+        .three__link {
+            font-size: 20px;
+            font-weight: 600;
+            color: #4f7bbc;
+            text-decoration: none;
+        }
+
+        .three__link:hover {
+            color: orange;
+        }
+
+        .block-three__colortext {
+            color: #ddd;
+        }
+
+        .plant {
+            height: 220px;
+            bottom: 80px;
+            background: #fff;
+            box-shadow: 0 0 1px #333;
+
+
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        a:hover {
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container header__flex">
+            <div class="header__logo">
+                <a class="logo__link" href="#"></a>
+            </div>
+
+            <nav>
+                <li class="header__link"> <a href="#">SERVICES</a>
+                    <ul class="link__menu">
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="#">SERVICES</a></li>
+                    </ul>
+                </li>
+                <li class="header__link">TESTOMONIALS</li>
+                <li class="header__link">ABOUT US</li>
+                <li class="header__link">GALLERY</li>
+                <li class="header__link">CONTACTS</li>
+
+            </nav>
+        </div>
+    </header>
+    <section class="general">
+        <div class="container">
+            <div class="block__right">
+                <h1 class="general__heading">YOUR FAMILY <span class="heading__fonts">AUTO DOCTOR</span></h1>
+                <p class="general__text">Free oil change, April 15. Only if you have a "5"
+                    on your license plate.</p>
+                <button>MAKE AN APPOINTMENT</button>
+            </div>
+        </div>
+    </section>
+    <footer class="container plant">
+        <div class="block__one">
+            <h2 class="block__heading">
+                <span class="heading__line">OUR</span> ADVANTAGES
+            </h2>
+            <ul>
+                <li><span class="list__label">&#10003; </span> Free Diagnostics & Brake Check</li>
+                <li><span class="list__label">&#10003; </span> Certifled repair services</li>
+                <li><span class="list__label">&#10003; </span> Fair price repair estimates</li>
+            </ul>
+        </div>
+        <div class="block__two">
+            <h2 class="block__heading">
+                <span class="heading__line">OPE</span>NNING HOURS
+            </h2>
+            <ul>
+                <li class="block-two__list">Weekdays: &#160;<span class="list__color">05:00 - 22:00</span></li>
+                <li class="block-two__list">Saturday: &#160;&#160;<span class="list__color">10:00 - 06:00</span></li>
+                <li class="block-two__list">Sunday: &#160; &#160; &#160;<span class="list__color">10:00 - 03:00</span>
+                </li>
+            </ul>
+        </div>
+        <div class="block__three">
+            <h2 class="block__heading">
+                <span class="heading__line">GET</span> IN TOUCH
+            </h2>
+            <a class="three__link" href="tel:+4153473160">(415) 347-3160</a>
+            <p class="thee__text">Mobile: <span class="block-three__colortext">02 562-958</span></p>
+            <p class="thee__text">Fax: <span class="block-three__colortext">02 562-95</span></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="924.001" height="40.031" viewBox="0 0 924.001 40.031">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #8b5814;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="206.969" y="68.969" width="924.001" height="40.031" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="1" in="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood result="flood" flood-color="#7e4f13"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feImage preserveAspectRatio="none" x="206.969" y="68.9688" width="924.001" height="39.031" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iOTI0LjAwMSIgaGVpZ2h0PSIzOS4wMzEiIHZpZXdCb3g9IjAgMCA5MjQuMDAxIDM5LjAzMSI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogdXJsKCNsaW5lYXItZ3JhZGllbnQpOwogICAgICB9CiAgICA8L3N0eWxlPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHgxPSI0NjIiIHkxPSIzOS4wMzEiIHgyPSI0NjIiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjYTQ2NzFmIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC4xMzciIHN0b3AtY29sb3I9IiM4MzRjMGIiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjI1NCIgc3RvcC1jb2xvcj0iIzc3NDcwYiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNTUyIiBzdG9wLWNvbG9yPSIjYjA3ODJiIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2U5YzA4NyIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iOTI0LjAwMSIgaGVpZ2h0PSIzOS4wMzEiLz4KPC9zdmc+Cg=="/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in2="blend"/>
+      <feGaussianBlur result="blur-2" stdDeviation="0.333" in="SourceAlpha"/>
+      <feFlood result="flood-2" flood-color="#fff" flood-opacity="0.75"/>
+      <feComposite result="composite-4" operator="out" in2="blur-2"/>
+      <feComposite result="composite-3" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-3" mode="screen" in2="blend-2"/>
+    </filter>
+  </defs>
+  <path id="меню" class="cls-1" d="M212,69.015l914-.041a5.217,5.217,0,0,1,4.96,5.283v29.314c0,2.762-2.2,4.434-4.96,4.434l-914-.081c-2.761,0-5.041-1.591-5.041-4.353V74.258A5.248,5.248,0,0,1,212,69.015Z" transform="translate(-206.969 -68.969)"/>
+</svg>

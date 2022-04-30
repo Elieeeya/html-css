@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="176" height="29" viewBox="0 0 176 29">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d7c074;
+        stroke: #d8c992;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="934" y="4" width="177" height="30" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="937" y="7.96875" width="171" height="22.063" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTcxIiBoZWlnaHQ9IjIyLjA2MyIgdmlld0JveD0iMCAwIDE3MSAyMi4wNjMiPgogIDxkZWZzPgogICAgPHN0eWxlPgogICAgICAuY2xzLTEgewogICAgICAgIGZpbGw6IHVybCgjbGluZWFyLWdyYWRpZW50KTsKICAgICAgfQogICAgPC9zdHlsZT4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50IiB4MT0iODUuNSIgeTE9IjIyLjA2MyIgeDI9Ijg1LjUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZmFlZGM3Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC4xMjciIHN0b3AtY29sb3I9IiNlYWNmOGYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjU4MiIgc3RvcC1jb2xvcj0iI2U4YzQ3OCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuOTU4IiBzdG9wLWNvbG9yPSIjZmZmOWUwIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmZjllMCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iMTcxIiBoZWlnaHQ9IjIyLjA2MyIvPgo8L3N2Zz4K"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="translate(-934.5 -4.5)" style="fill: #d7c074; filter: url(#filter)">
+    <path id="Фигура_4_копия_2" data-name="Фигура 4 копия 2" class="cls-1" d="M942.09,7.967H1103a5,5,0,0,1,5,5v12.11a4.974,4.974,0,0,1-5,4.969H942.09a5.056,5.056,0,0,1-5.1-4.969V12.968A5.082,5.082,0,0,1,942.09,7.967Z" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use transform="translate(-934.5 -4.5)" xlink:href="#Фигура_4_копия_2" style="stroke: #d8c992; filter: none; fill: none"/>
+</svg>

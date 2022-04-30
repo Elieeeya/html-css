@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech ambulance</title>
+    <style>
+        @import url(../reset.css);
+
+        .container {
+            position: relative;
+            max-width: 1000px;
+            width: 100%;
+            height: inherit;
+            text-align: center;
+            margin: auto;
+            padding: 0 20px;
+        }
+
+        .header {
+            height: 110px;
+            background-color: #212732;
+            padding-top: 20px;
+
+        }
+
+        .header__flex {
+            display: flex;
+            justify-content: space-between;
+            height: 70px;
+        }
+
+        .header__logo {
+            max-width: 190px;
+            max-height: 50px;
+            width: 100%;
+            height: 100%;
+            background: url(brand.png) no-repeat center/contain;
+
+        }
+
+        .header-phone {
+            display: flex;
+            margin-top: 5px;
+        }
+
+        .header-phone__img {
+            width: 12px;
+            height: 25px;
+            background: url(phone-svgrepo-com.svg) no-repeat center/cover #fff;
+            margin-right: 10px;
+        }
+
+        .header-phone__link {
+            font-size: 20px;
+            font-weight: 700;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .header-phone__link:hover {
+            color: orangered;
+        }
+
+        .header__buttone {
+            max-width: 160px;
+            max-height: 40px;
+            width: 100%;
+            height: 100%;
+            background-color: #ffe348;
+            border: none;
+            font-weight: 900;
+
+        }
+
+        .header__buttone:hover {
+            background-color: #fff;
+            color: orangered;
+        }
+
+        .header-nav {
+            display: flex;
+        }
+
+        .header-nav__link {
+            max-width: 200px;
+            max-height: 20px;
+            width: 100%;
+            height: 100%;
+            font-size: 12px;
+            font-weight: 600;
+            background-color: #fff;
+            color: #2088e1;
+            padding: 20px;
+            text-decoration: none;
+            border-left: 1px solid #e8e8e8;
+        }
+
+        .header-nav__link:hover {
+            background-color: aquamarine;
+        }
+
+        .header-nav__link:nth-child(1):hover {
+            background-color: aquamarine;
+            color: blue;
+        }
+
+        .header-nav__link:nth-child(1) {
+            background-color: #2088e1;
+            color: #fff;
+            border: none;
+        }
+
+        .banner {
+            height: 100%;
+            background: url(./0_CitQ6WExUfu-8WMy.jpeg) no-repeat center/cover;
+            padding: 380px 0;
+        }
+
+        .banner__heading {
+            font-size: 42px;
+            font-weight: 900;
+            color: #fff;
+            text-align: left;
+            padding-bottom: 100px;
+
+        }
+
+        .banner__text {
+            font-size: 28px;
+            font-weight: 700;
+            color: #fff;
+            text-align: end;
+            padding-bottom: 25px;
+        }
+
+        .cards {
+            display: flex;
+            min-height: 300px;
+            height: 100%;
+            padding-bottom: 20px;
+
+        }
+
+        .cards__one {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 50%;
+
+
+        }
+
+        .cards__two {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 50%;
+
+        }
+
+        .one__img {
+            background: url(PC.png) no-repeat center/cover;
+        }
+
+        .two__img {
+            background: url(MAC.png) no-repeat center/cover;
+
+        }
+
+
+        .both__img {
+            width: 50%;
+            min-width: 350px;
+            height: 300px;
+        }
+
+        .both__info {
+            width: 45%;
+            min-width: 350px;
+            padding: 35px 10px 0px 10px;
+        }
+
+        .both__heading {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .both__text {
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        .both__btn {
+            width: 110px;
+            height: 30px;
+            background-color: #2088e1;
+            color: #fff;
+            border: none;
+            margin-top: 30px;
+        }
+
+        .both__btn:hover {
+            background-color: plum;
+            color: whitesmoke;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__flex">
+            <a class="header__logo" href="#"></a>
+            <div class="header-phone">
+                <i class="header-phone__img"></i>
+                <a class="header-phone__link" href="tel:18001234567">1-800-1234-567</a>
+            </div>
+            <button class="header__buttone">Free consultation</button>
+        </div>
+        <nav class="container header-nav">
+            <a class="header-nav__link" href="#">Home</a>
+            <a class="header-nav__link" href="#">About Us</a>
+            <a class="header-nav__link" href="#">Services</a>
+            <a class="header-nav__link" href="#">Blog</a>
+            <a class="header-nav__link" href="#">Contact Us</a>
+        </nav>
+    </header>
+    <section class="banner">
+        <div class="container">
+            <h1 class="banner__heading">Device Repair</h1>
+            <p class="banner__text">We offer repair and salvaging for many different types of divices including
+                computers, smartphones, tablets, gaming consoles etc...</p>
+        </div>
+    </section>
+    <section class="cards">
+        <div class="cards__one">
+            <div class="one__img both__img"></div>
+            <div class="one__info both__info">
+                <h2 class=" one__heading both__heading">Iphone Repairs</h2>
+                <p class="one__text both__text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam fuga
+                    ipsum ipsa
+                    repellat? Quibusdam quam
+                    doloribus nihil repellendus in soluta consectetur. Consequatur expedita, omnis totam excepturi ad
+                    ducimus commodi maxime.</p>
+                <button class="one__button both__btn">Read More</button>
+            </div>
+
+        </div>
+        <div class="cards__two">
+            <div class="two__img both__img"></div>
+            <div class="two__info both__info">
+                <h2 class="two__heading both__heading">Laptop Repairs</h2>
+                <p class="two__text both__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam fuga
+                    ipsum ipsa
+                    repellat? Quibusdam quam
+                    doloribus nihil repellendus in soluta consectetur. Consequatur expedita, omnis totam excepturi ad
+                    ducimus commodi maxime.</p>
+                <button class="two__button both__btn">Read More</button>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>

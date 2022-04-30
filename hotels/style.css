@@ -1,0 +1,1313 @@
+@font-face {
+  font-family: "Muller";
+  src: url("fonts/MullerBold.woff2") format("woff2");
+  src: url("fonts/MullerBold.woff") format("woff");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: url("fonts/MullerBold.woff2") format("woff2");
+  src: url("fonts/MullerBold.woff") format("woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: url("fonts/MullerBold.woff2") format("woff2");
+  src: url("fonts/MullerBold.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: url("fonts/MullerBold.woff2") format("woff2");
+  src: url("fonts/MullerBold.woff") format("woff");
+  font-weight: 300;
+}
+* {
+  box-sizing: border-box;
+  background-color: #f1f1f1;
+}
+
+body {
+  font-family: "Muller", sans-serif;
+  font-weight: 400;
+}
+
+:root {
+  --font-color1: #4e4e4e;
+  --font-color2: #cc9933;
+  --font-color3: #333333;
+  --font-color4: #666666;
+  --font-color5: #999999;
+  --font-color6: #ffffff;
+  --font-color7: #cfa047;
+}
+
+.general {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  background: transparent;
+  color: var(--font-color1);
+}
+
+ul {
+  margin: 0;
+  padding: 0%;
+  list-style: none;
+}
+
+/*block1*/
+.line1-block1 {
+  margin-top: 30px;
+}
+/*Телефон*/
+.phone-block1 {
+  display: inline;
+  position: relative;
+  top: -20px;
+  left: 20px;
+  padding: 17px 17px;
+}
+/*Телефон дополнительные стили*/
+.cont-link-block1 {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--font-color4);
+  font-size: 22px;
+  transition-property: font-size, color;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
+
+.cont-link-block1:hover {
+  font-size: 22.5px;
+  text-decoration: orange underline;
+}
+
+/*Личный кабинет*/
+.LC-block1 {
+  width: 150px;
+  height: 20px;
+  position: relative;
+  height: 20px;
+  left: 1010px;
+  top: -41px;
+  padding: 0;
+}
+
+/*Кнопка личного кабинета*/
+.btn-block1 {
+  width: 175px;
+  height: 20px;
+  padding: 0;
+  color: var(--font-color2);
+  border: 0;
+  font-size: 16px;
+  background: url("img/Lc-strelk1.png") no-repeat left top;
+  background-size: 17px;
+  outline: none;
+  cursor: pointer;
+  transition-property: font-size;
+  transition: 1s ease-in-out;
+}
+
+.btn-block1:hover {
+  font-size: 12px;
+}
+
+/*Список навигации*/
+.nav-list {
+  display: flex;
+  height: 71px;
+  width: 1170px;
+  background: var(--font-color6);
+  border: 1px solid var(--font-color6);
+  border-radius: 15px;
+  padding-top: 28px;
+  padding-left: 22px;
+  color: var(--font-color3);
+  font-size: 16px;
+  transition-property: color;
+  transition-duration: 100ms;
+  transition-timing-function: ease-in-out;
+}
+
+/*Список навигации доп стили*/
+.nav-link1 {
+  background: transparent;
+}
+
+.nav-link1:hover {
+  text-decoration: underline;
+}
+
+.nav-link2 {
+  background: transparent;
+  margin-left: 45px;
+}
+
+.nav-link2:hover {
+  text-decoration: underline;
+}
+/*Строка пойска block1*/
+.search1-block1 {
+  position: relative;
+  width: 359px;
+  height: 52px;
+  top: -60px;
+  left: 790px;
+  border-radius: 12px;
+}
+
+/*Строка пойска*/
+.search {
+  margin: 19px 22px 19px;
+  padding: 0;
+  width: 280px;
+  height: 14px;
+  float: left;
+  border: none;
+  outline: none;
+  color: #a0a0a0;
+}
+
+/*Значок кнопки пойска*/
+.button-search2-block1 {
+  position: absolute;
+  max-width: 200px;
+  top: 15px;
+  right: 21px;
+  width: 22px;
+  height: 22px;
+  background: url("img/search.svg") no-repeat;
+  border: none;
+  outline: none;
+  padding: 0;
+  cursor: pointer;
+  transition-property: color;
+  transition-property: font-size, color;
+  transition: 1s ease-in-out;
+}
+
+.button-search2-block1:hover {
+  background-position: center;
+  height: 30px;
+  width: 50px;
+  border: 2px solid var(--font-color2);
+  border-radius: 20px;
+}
+/*block2*/
+.block2 {
+  display: flex;
+  width: 660px;
+}
+/*Заголовок*/
+.head-block2 {
+  color: var(--font-color3);
+  padding-left: 45px;
+  font-size: 40px;
+}
+
+/*Первая часть блока №2*/
+
+/*Формы*/
+.button-block2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 591px;
+  height: 71px;
+  border: none;
+  background-color: var(--font-color6);
+  color: var(--font-color5);
+  border-radius: 12px;
+  padding: 22px;
+  margin: 23px;
+  margin-left: 0px;
+  outline: none;
+}
+
+/*Кнопка найти номер*/
+.offer-button-block2 {
+  display: flex;
+  width: 591px;
+}
+
+/*Кнопка найти номер*/
+.findroom-block2 {
+  width: 160px;
+  height: 71px;
+  background-color: var(--font-color2);
+  color: var(--font-color6);
+  font-size: 16px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition-property: font-size, color;
+  transition: 1s ease-in-out;
+}
+
+.findroom-block2:hover {
+  background: var(--font-color6);
+  color: var(--font-color2);
+  border: 1px solid var(--font-color2);
+  transform: scale(0.9);
+}
+
+/*Дополнительные предложения*/
+.room-suggestions {
+  position: relative;
+  width: 340px;
+  top: -70px;
+  left: 150px;
+  margin-top: 26px;
+  margin-left: 30px;
+  color: var(--font-color5);
+}
+
+/*Orange цвет текста*/
+.orange-colortext {
+  color: var(--font-color2);
+  background-color: transparent;
+  transition-property: font-size, color;
+  transition: 1s ease-in-out;
+}
+
+.orange-colortext:hover {
+  font-size: 17px;
+}
+
+/*Вторая часть блока №2*/
+
+/*Второй заголовок*/
+.head2-block2 {
+  color: var(--font-color3);
+  padding-left: 45px;
+  margin-bottom: 32px;
+  font-size: 40px;
+}
+
+/*Картинка block2*/
+.line2-block2 {
+  border-radius: 12px;
+  background-repeat: no-repeat;
+  background-image: url("img/22.svg");
+  width: 550px;
+  height: 540px;
+}
+
+/*Заглавный текст*/
+.line2-1-block2 {
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding-bottom: 0;
+  padding-top: 255px;
+  padding-left: 41px;
+  font-size: 66px;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--font-color6);
+  background: transparent;
+}
+
+/*Текст "от 5 000 р"*/
+.line2-2-block2 {
+  margin-top: 215px;
+  display: flex;
+  background: transparent;
+}
+.line2-2-span1 {
+  margin-left: 41px;
+  font-size: 35px;
+  color: #656260;
+  background: transparent;
+}
+
+/*Текст "Подробно"*/
+.detail-inf {
+  width: 105px;
+  height: 90px;
+  background-color: transparent;
+  margin-left: 43px;
+  background: url("img/strelka.svg") no-repeat top right;
+  background-size: 10px 17px;
+}
+
+/*block3*/
+
+.block3 {
+  width: 845px;
+}
+
+/*Заголовок*/
+.Ht-block3 {
+  color: var(--font-color3);
+  margin-top: 71px;
+  margin-left: 43px;
+  margin-right: 23px;
+  margin-bottom: 23px;
+  font-size: 40px;
+}
+/*Основной текст*/
+.line1-block3 {
+  width: 900px;
+  height: 178px;
+  font-size: 16px;
+  color: var(--font-color4);
+  margin-left: 43px;
+  line-height: 2;
+}
+
+/*block4*/
+
+.block4 {
+  display: flex;
+  flex-flow: row wrap;
+  width: 1171px;
+  height: 734px;
+}
+/*Заголовок*/
+.Ht-block4 {
+  font-size: 40px;
+  margin-top: 67px;
+  margin-bottom: 23px;
+  margin-left: 41px;
+  color: var(--font-color3);
+}
+
+/*Рамка №1*/
+.frame1 {
+  width: 573px;
+  height: 350px;
+  background-size: 572px 165px;
+  background: var(--font-color6);
+  background-image: url("img/10.svg");
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  margin-right: 23px;
+}
+/*Рамка №1 Заголовок текста*/
+.frame1-Headtext {
+  width: 350px;
+  margin-top: 202px;
+  margin-left: 45px;
+  font-size: 22px;
+  background: transparent;
+  color: var(--font-color7);
+  background: url("img/strelka.svg") no-repeat center right;
+}
+/*Рамка №1 текст*/
+.frame1-text {
+  width: 372px;
+  height: 47px;
+  margin-top: 15px;
+  margin-left: 45px;
+  font-size: 16px;
+  line-height: 2;
+  background: transparent;
+  color: var(--font-color3);
+}
+/*Рамка №2*/
+.frame2 {
+  width: 573px;
+  height: 350px;
+  background-size: 573px 165px;
+  background: var(--font-color6);
+  background-repeat: no-repeat;
+  background-image: url("img/15.svg");
+  border-radius: 12px;
+}
+/*Рамка №2 Заголовок текста*/
+.frame2-Headtext {
+  width: 300px;
+  margin-top: 202px;
+  margin-left: 45px;
+  font-size: 22px;
+  color: var(--font-color7);
+  background: transparent;
+  background: url("img/strelka.svg") no-repeat center right;
+}
+/*Рамка №2 текст*/
+.frame2-text {
+  width: 363px;
+  height: 47px;
+  margin-top: 15px;
+  margin-left: 45px;
+  font-size: 16px;
+  line-height: 2;
+  color: var(--font-color3);
+  background: transparent;
+}
+/*Рамка №3*/
+.frame3 {
+  width: 573px;
+  height: 350px;
+  background-size: 572px 165px;
+  background: var(--font-color6);
+  background-repeat: no-repeat;
+  background-image: url("img/12.svg");
+  border-radius: 12px;
+  margin-right: 23px;
+}
+/*Рамка №3 Заголовок текста*/
+.frame3-Headtext {
+  width: 430px;
+  height: 21px;
+  margin-top: 202px;
+  margin-left: 45px;
+  font-size: 22px;
+  color: var(--font-color7);
+  background: transparent;
+  background: url("img/strelka.svg") no-repeat center right;
+}
+/*Рамка №3 текст*/
+.frame3-text {
+  width: 430px;
+  margin-top: 15px;
+  margin-left: 45px;
+  font-size: 16px;
+  color: var(--font-color3);
+  line-height: 2;
+  background: transparent;
+}
+
+/*Рамка №4*/
+.frame4 {
+  width: 573px;
+  height: 350px;
+  background-size: 572px 165px;
+  background: var(--font-color6);
+  background-repeat: no-repeat;
+  background-image: url("img/13.svg");
+  border-radius: 12px;
+}
+/*Рамка №4 Заголовок текста*/
+.frame4-Headtext {
+  width: 430px;
+  margin-top: 202px;
+  margin-left: 45px;
+  font-size: 22px;
+  color: var(--font-color7);
+  background: transparent;
+  background: url("img/strelka.svg") no-repeat center right;
+}
+/*Рамка №4 текст*/
+.frame4-text {
+  width: 440px;
+  margin-top: 15px;
+  margin-left: 45px;
+  font-size: 16px;
+  line-height: 2;
+  color: var(--font-color3);
+  background: transparent;
+}
+
+/*block5*/
+.block5 {
+  display: flex;
+  flex-flow: row wrap;
+  width: 1180px;
+  height: 745px;
+  padding-bottom: 23px;
+}
+/*Заголовок*/
+.Ht-block5 {
+  position: relative;
+  width: 1129px;
+  height: 45px;
+  color: var(--font-color3);
+  font-size: 40px;
+  margin-top: 70px;
+  margin-bottom: 26px;
+  margin-left: 45px;
+}
+
+/*Общие стили для всех рамок*/
+.miniframe {
+  border: 0px;
+  width: 277px;
+  height: 278px;
+  color: var(--font-color3);
+  margin-right: 17px;
+  margin-bottom: 23px;
+}
+
+.miniframe:nth-child(5n) {
+  margin-right: 0px;
+}
+
+/*Рамка №1*/
+.mframe1-text {
+  margin: 0;
+  font-size: 16px;
+  padding-top: 120px;
+  padding-bottom: 26px;
+  padding-left: 45px;
+  padding-right: 40px;
+  background: var(--font-color6);
+  background-image: url("img/miniframe1.svg");
+  background-repeat: no-repeat;
+  background-position: top 45px left 45px;
+  padding-left: 45px;
+  line-height: 2;
+  border-radius: 12px;
+}
+
+/*Рамка №2*/
+.mframe2-text {
+  margin: 0;
+  font-size: 16px;
+  padding-top: 120px;
+  padding-bottom: 28px;
+  padding-left: 45px;
+  padding-right: 40px;
+  background: var(--font-color6);
+  background-image: url("img/miniframe2.svg");
+  background-repeat: no-repeat;
+  background-position: top 45px left 45px;
+  padding-left: 45px;
+  line-height: 2;
+  border-radius: 12px;
+}
+
+/*Рамка №3*/
+.mframe3-text {
+  margin: 0;
+  font-size: 16px;
+  padding-top: 120px;
+  padding-bottom: 26px;
+  padding-left: 45px;
+  padding-right: 40px;
+  background: var(--font-color6);
+  background-image: url("img/miniframe3.svg");
+  background-repeat: no-repeat;
+  background-position: top 45px left 45px;
+  padding-left: 45px;
+  line-height: 2;
+  border-radius: 12px;
+}
+
+/*Рамка №4*/
+.mframe4-text {
+  margin: 0;
+  font-size: 16px;
+  padding-top: 120px;
+  padding-bottom: 26px;
+  padding-left: 45px;
+  padding-right: 40px;
+  background: var(--font-color6);
+  background-image: url("img/miniframe4.svg");
+  background-repeat: no-repeat;
+  background-position: top 45px left 45px;
+  padding-left: 45px;
+  line-height: 2;
+  border-radius: 12px;
+}
+/*Рамка №5*/
+.mframe5-text {
+  margin: 0;
+  font-size: 16px;
+  padding-top: 120px;
+  padding-bottom: 26px;
+  padding-left: 45px;
+  padding-right: 40px;
+  background: white;
+  background-image: url("img/miniframe5.svg");
+  background-repeat: no-repeat;
+  background-position: top 45px left 45px;
+  padding-left: 45px;
+  line-height: 2;
+  border-radius: 12px;
+}
+/*Рамка №6*/
+.mframe6-text {
+  margin: 0;
+  font-size: 16px;
+  padding-top: 120px;
+  padding-bottom: 26px;
+  padding-left: 45px;
+  padding-right: 40px;
+  background: var(--font-color6);
+  background-image: url("img/miniframe6.svg");
+  background-repeat: no-repeat;
+  background-position: top 45px left 45px;
+  padding-left: 45px;
+  line-height: 2;
+  border-radius: 12px;
+}
+/*Рамка №7*/
+.mframe7-text {
+  margin: 0;
+  font-size: 16px;
+  padding-top: 120px;
+  padding-bottom: 26px;
+  padding-left: 45px;
+  padding-right: 40px;
+  background: var(--font-color6);
+  background-image: url("img/miniframe7.svg");
+  background-repeat: no-repeat;
+  background-position: top 45px left 45px;
+  padding-left: 45px;
+  line-height: 2;
+  border-radius: 12px;
+}
+/*Рамка №8*/
+.mframe8-text {
+  margin: 0;
+  font-size: 16px;
+  padding-top: 120px;
+  padding-bottom: 28px;
+  padding-left: 45px;
+  padding-right: 40px;
+  background: var(--font-color6);
+  background-image: url("img/miniframe8.svg");
+  background-repeat: no-repeat;
+  background-position: top 45px left 45px;
+  padding-left: 45px;
+  line-height: 2;
+  border-radius: 12px;
+}
+
+/*block6*/
+
+.block6 {
+  display: flex;
+  flex-flow: row wrap;
+  width: 1197px;
+  height: 1495px;
+}
+
+/*Заголовок*/
+.Ht-block6 {
+  width: 1129px;
+  height: 45px;
+  font-size: 40px;
+  margin-left: 45px;
+  color: var(--font-color3);
+}
+/*Цвет и стили текста для карточек*/
+
+.grey-colortext {
+  font-size: 16px;
+  background: transparent;
+  color: var(--font-color5);
+}
+.fonts-text {
+  font-size: 16px;
+  background: transparent;
+}
+
+.text-cardstyle {
+  width: 170px;
+  height: 0px;
+  position: relative;
+  top: -60px;
+  left: 66px;
+  white-space: pre-line;
+  line-height: 2;
+}
+
+.text-cardstyle2 {
+  width: 240px;
+  height: 0px;
+  position: relative;
+  top: -60px;
+  left: 66px;
+  white-space: pre-line;
+  line-height: 2;
+}
+
+/*Общие стили для всех карточек*/
+.cardblock6 {
+  border-radius: 12px;
+  background: var(--font-color6);
+  margin-right: 20px;
+  margin-bottom: 25px;
+}
+
+.cardblock6:nth-child(3n) {
+  margin-right: 20px;
+}
+/*1 карточка*/
+.mcard1 {
+  background-image: url("img/card1.svg");
+  background-repeat: no-repeat;
+  width: 374px;
+  height: 442px;
+}
+/*Текст 1 карточки*/
+.text-mcard1 {
+  margin: 0px;
+  padding-top: 247px;
+  padding-left: 66px;
+  white-space: pre-line;
+  line-height: 0.8;
+  background: transparent;
+  font-size: 22px;
+}
+
+/*2 карточка*/
+.mcard2 {
+  background-image: url("img/card2.svg");
+  background-repeat: no-repeat;
+  width: 374px;
+  height: 442px;
+}
+
+/*Текст 2 карточки*/
+.text-mcard2 {
+  margin: 0px;
+  padding-top: 247px;
+  padding-left: 66px;
+  white-space: pre-line;
+  line-height: 0.8;
+  font-size: 22px;
+  background: transparent;
+}
+
+/*3 карточка*/
+.mcard3 {
+  background-image: url("img/card3.svg");
+  background-repeat: no-repeat;
+  width: 374px;
+  height: 442px;
+}
+
+/*Текст 3 карточки*/
+.text-mcard3 {
+  margin: 0px;
+  padding-top: 247px;
+  padding-left: 66px;
+  white-space: pre-line;
+  line-height: 0.8;
+  background: transparent;
+  font-size: 22px;
+}
+
+/*4 карточка*/
+.mcard4 {
+  background-image: url("img/card4.svg");
+  background-repeat: no-repeat;
+  width: 374px;
+  height: 442px;
+}
+
+/*Текст 4 карточки*/
+.text-mcard4 {
+  margin: 0px;
+  padding-top: 247px;
+  padding-left: 66px;
+  white-space: pre-line;
+  line-height: 0.8;
+  background: transparent;
+  font-size: 22px;
+}
+
+/*5 карточка*/
+.mcard5 {
+  background-image: url("img/card5.svg");
+  background-repeat: no-repeat;
+  width: 374px;
+  height: 442px;
+}
+
+/*Текст 5 карточки*/
+.text-mcard5 {
+  margin: 0px;
+  padding-top: 247px;
+  padding-left: 66px;
+  white-space: pre-line;
+  line-height: 0.8;
+  background: transparent;
+  font-size: 22px;
+}
+
+/*6 карточка*/
+.mcard6 {
+  background-image: url("img/card6.svg");
+  background-repeat: no-repeat;
+  width: 374px;
+  height: 442px;
+}
+
+/*Текст 6 карточки*/
+.text-mcard6 {
+  margin: 0px;
+  padding-top: 247px;
+  padding-left: 66px;
+  white-space: pre-line;
+  line-height: 0.8;
+  background: transparent;
+  font-size: 22px;
+}
+
+/*7 карточка*/
+.mcard7 {
+  background-image: url("img/card7.svg");
+  background-repeat: no-repeat;
+  width: 374px;
+  height: 442px;
+}
+
+/*Текст 7 карточки*/
+.text-mcard7 {
+  margin: 0px;
+  padding-top: 247px;
+  padding-left: 66px;
+  white-space: pre-line;
+  line-height: 0.8;
+  background: transparent;
+  font-size: 22px;
+}
+
+/*8 карточка*/
+.mcard8 {
+  background-image: url("img/card8.svg");
+  background-repeat: no-repeat;
+  width: 374px;
+  height: 442px;
+}
+
+/*Текст 8 карточки*/
+.text-mcard8 {
+  margin: 0px;
+  padding-top: 247px;
+  padding-left: 66px;
+  white-space: pre-line;
+  line-height: 0.8;
+  background: transparent;
+  font-size: 22px;
+}
+
+/*9 карточка*/
+.mcard9 {
+  background-image: url("img/card9.svg");
+  background-repeat: no-repeat;
+  width: 373px;
+  height: 441px;
+}
+
+/*Текст 9 карточки*/
+.link-text-mcard9 {
+  display: table-cell;
+  position: relative;
+  text-align: center;
+  vertical-align: bottom;
+  width: 373px;
+  height: 441px;
+  padding-bottom: 40px;
+  color: var(--font-color6);
+  font-size: 22px;
+  background: url(img/White\ strelka.svg) no-repeat bottom 45px right 20px
+    transparent;
+  transition-property: font-size, color;
+  transition-duration: 100ms;
+  transition-timing-function: ease-in-out;
+}
+
+.link-text-mcard9:hover {
+  font-size: 21px;
+  color: var(--font-color7);
+}
+
+/*Общий стили кнокпи карточек*/
+.btn-card-block6 {
+  font-size: 16px;
+  color: var(--font-color2);
+  border: 1px solid var(--font-color2);
+  border-radius: 12px;
+  background: white;
+  margin-top: 37px;
+  margin-left: 66px;
+  margin-bottom: 55px;
+  width: 117px;
+  height: 47px;
+  outline: none;
+  cursor: pointer;
+  transition-property: font-size, color;
+  transition: 1s ease-in-out;
+}
+
+.btn-card-block6:hover {
+  background: var(--font-color2);
+  color: var(--font-color6);
+  transform: scale(0.8);
+}
+
+/*Зездочки*/
+.rating-mini {
+  position: relative;
+  display: inline-block;
+  top: -17px;
+  left: 260px;
+  font-size: 0;
+}
+.rating-mini span {
+  padding: 0;
+  font-size: 20px;
+  line-height: 1;
+  color: lightgrey;
+  background: var(--font-color6);
+}
+.rating-mini > span:before {
+  content: "★";
+}
+.rating-mini > span.active {
+  color: gold;
+}
+
+/*Контакты*/
+
+.Foot-Contacts {
+  display: flex;
+}
+.FC-1 {
+  width: 475px;
+  height: 600px;
+  margin: 0;
+  background: var(--font-color6);
+  border-radius: 12px;
+}
+
+.frame-textContacts {
+  margin-top: 68px;
+  margin-left: 45px;
+  font-size: 40px;
+  color: var(--font-color3);
+}
+
+.address {
+  display: flex;
+  width: 470px;
+  height: 110px;
+  background: transparent;
+  border-bottom: 1px solid #cccccc;
+}
+
+.phone-Cont {
+  display: flex;
+  width: 470px;
+  height: 110px;
+  background: transparent;
+  border-bottom: 1px solid #cccccc;
+}
+
+.phone-number {
+  color: var(--font-color2);
+}
+
+.emailCont {
+  display: flex;
+  width: 470px;
+  height: 110px;
+  background: transparent;
+  border-bottom: 1px solid #cccccc;
+}
+
+.ScheduleCont {
+  display: flex;
+  width: 470px;
+  height: 110px;
+  background: transparent;
+  border-bottom: 1px solid #cccccc;
+}
+
+.textmframe {
+  padding-top: 15px;
+  padding-left: 45px;
+  font-size: 22px;
+  color: var(--font-color4);
+  background: transparent;
+}
+
+.minitext-adress {
+  padding-top: 40px;
+  padding-right: 45px;
+  font-size: 16px;
+  line-height: 1.5;
+  columns: var(--font-color3);
+  white-space: pre-line;
+  background: transparent;
+  margin-left: 80px;
+}
+
+.phonetext1 {
+  position: relative;
+  top: -30px;
+  left: 105px;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 1.5;
+  white-space: pre;
+  color: var(--font-color2);
+  background: transparent;
+  transition-property: fon-size;
+  transition: 1s ease-in-out;
+}
+
+.phonetext2 {
+  position: relative;
+  top: -60px;
+  left: 91px;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  white-space: pre;
+  color: var(--font-color2);
+  background: transparent;
+  transition-property: fon-size;
+  transition: 1s ease-in-out;
+}
+
+.phonetext1:hover {
+  font-size: 15px;
+}
+
+.phonetext2:hover {
+  font-size: 15px;
+}
+
+.email-link {
+  position: relative;
+  top: -30px;
+  left: 83px;
+  font-size: 16px;
+  line-height: 1.2;
+  background: transparent;
+  white-space: pre;
+  background: transparent;
+  color: var(--font-color2);
+  transition-property: font-size;
+  transition: 1s ease-in-out;
+}
+
+.email-link:hover {
+  font-size: 15px;
+}
+
+.email-link2 {
+  position: relative;
+  top: -30px;
+  left: 105px;
+  font-size: 16px;
+  line-height: 1.2;
+  background: transparent;
+  white-space: pre;
+  background: transparent;
+  color: var(--font-color2);
+  transition-property: font-size;
+  transition: 1s ease-in-out;
+}
+
+.email-link2:hover {
+  font-size: 15px;
+}
+
+.email-text {
+  color: #a0a0a0;
+  font-size: 16px;
+  background: transparent;
+}
+
+.timetext {
+  width: 190px;
+  height: 40px;
+  position: relative;
+  top: 41.5px;
+  right: 83px;
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--font-color3);
+  background: transparent;
+  margin-left: 155px;
+}
+
+.button-contacts {
+  padding-top: 43px;
+  padding-left: 38px;
+  background: transparent;
+}
+.Route {
+  width: 215px;
+  height: 71px;
+  background-color: white;
+  color: var(--font-color2);
+  font-size: 16px;
+  border-radius: 12px;
+  border: 1px solid var(--font-color2);
+  outline: none;
+  cursor: pointer;
+  transition-property: font-size, color;
+  transition: 1s ease-in-out;
+}
+.Route:hover {
+  color: var(--font-color6);
+  background: var(--font-color2);
+  transform: scale(1.1);
+}
+
+.FC-2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 500px;
+  top: 29px;
+  left: 178px;
+}
+
+.FB-headtext {
+  font-size: 40px;
+  color: var(--font-color3);
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.FB-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-FB {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 341px;
+  height: 71px;
+  border: none;
+  background-color: var(--font-color6);
+  color: var(--font-color5);
+  border-radius: 12px;
+  padding: 22px;
+  margin: 22px 0px 0px 0px;
+  margin-left: 0px;
+  outline: none;
+}
+
+.button-FB-message {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 341px;
+  height: 111px;
+  border: none;
+  background-color: var(--font-color6);
+  color: var(--font-color5);
+  border-radius: 12px;
+  padding-left: 22px;
+  padding-bottom: 50px;
+  margin: 22px 0px 0px 0px;
+  outline: none;
+}
+
+.sendmessage {
+  padding-top: 21px;
+}
+.send {
+  width: 341px;
+  height: 71px;
+  background-color: var(--font-color2);
+  color: var(--font-color6);
+  font-size: 16px;
+  border-radius: 12px;
+  border: 1px solid var(--font-color2);
+  outline: none;
+  cursor: pointer;
+  transition-property: font-size, color;
+  transition: 1s ease-in-out;
+}
+
+.send:hover {
+  background: var(--font-color6);
+  color: var(--font-color2);
+  transform: scale(0.7);
+}
+
+footer {
+  width: 1170px;
+  height: 339px;
+  display: flex;
+  margin-top: 21px;
+  border-radius: 12px;
+  background: #333333;
+  margin-bottom: 50px;
+}
+
+.FT-text1 {
+  margin-top: -5px;
+  white-space: pre-wrap;
+  background: transparent;
+  font-size: 16px;
+  color: var(--font-color6);
+  line-height: 2;
+}
+
+.FT-text2 {
+  white-space: pre-wrap;
+  margin-left: 85px;
+  font-size: 16px;
+  color: var(--font-color6);
+  background: transparent;
+}
+
+.FT-cont {
+  color: var(--font-color2);
+  line-height: 1.7;
+  transition-property: font-size, color;
+  transition: 1s ease-in-out;
+}
+
+.FT-email {
+  color: var(--font-color2);
+  line-height: 1.7;
+}
+
+.SC-img {
+  background: transparent;
+}
+
+.SC-image {
+  position: relative;
+  left: 265px;
+  width: 25px;
+  height: 25px;
+  background: transparent;
+}
+
+.SC-image1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: transparent;
+}
+.SC-image2 {
+  margin-bottom: 20px;
+  background: transparent;
+}
+.SC-image3 {
+  margin-bottom: 20px;
+  background: transparent;
+}
+.SC-image4 {
+  margin-bottom: 20px;
+  background: transparent;
+}
+.SC-image5 {
+  margin-bottom: 20px;
+  background: transparent;
+}
+
+.SC-sunimage {
+  position: relative;
+  top: 90px;
+  right: 137px;
+  background: transparent;
+}
